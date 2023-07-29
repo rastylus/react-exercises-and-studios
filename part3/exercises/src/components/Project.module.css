@@ -1,0 +1,22 @@
+
+table {
+    margin: auto;
+}
+
+div {
+    /* text-align: left;
+    margin: auto;
+    align-items: center; */
+}
+
+ol {
+    text-align: left;
+    /* margin: auto; */
+    /* justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* // style={{ textAlign: 'left', margin: 'auto' }} */
+/* // style={{ display: 'flex', justifyContent: 'center', flexDirection: 'column' }} */

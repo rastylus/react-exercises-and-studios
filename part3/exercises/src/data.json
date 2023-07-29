@@ -1,30 +1,35 @@
 {
     "projects" : [{
-        "sample":"Saudade Vem Correndo by Stan Getz and Luiz Bonfá",
+        "sample":"Saudade Vem Correndo",
+        "artist":"Stan Getz and Luiz Bonfá",
         "samplePhoto": "https://www.whosampled.com/static/images/media/track_images_200/lr2_2008123_15522668402.jpg",
         "flipper":"J Dilla and Tha Pharcyde",
         "song":"Runnin'",
         "songPhoto":"https://www.whosampled.com/static/images/media/track_images_200/lr60124_201344_171959503414.jpg"
     }, {
-        "sample":"Mystic Brew by Ronnie Foster",
+        "sample":"Mystic Brew",
+        "artist":"Ronnie Foster",
         "samplePhoto": "https://www.whosampled.com/static/images/media/track_images_200/lr60124_2013919_165911470163.jpg",
         "flipper": "Q-tip with A Tribe Called Quest",
         "song":"Electric Relaxation",
         "songPhoto":"https://www.whosampled.com/static/images/media/track_images_200/lr60124_2017215_172140193856.jpg"
     }, {
-        "sample":"Experience by Daedelus",
+        "sample":"Experience",
+        "artist":"Daedelus",
         "samplePhoto": "https://www.whosampled.com/static/images/media/track_images_200/lr1000_2009430_213120683592.jpg",
         "flipper": "Madlib with Madvillain",
         "song":"Accordion",
         "songPhoto":"https://www.whosampled.com/static/images/media/track_images_200/lr1000_2009430_213512428932.jpg"
     }, {
-        "sample":"Ain't Got Time by Roy Ayers Ubiquity",
+        "sample":"Ain't Got Time",
+        "artist":"Roy Ayers Ubiquity",
         "samplePhoto": "https://www.whosampled.com/static/images/media/track_images_200/lr7869_2010718_10401163095.jpg",
         "flipper": "J Dilla with Black Star",
         "song":"Little Brother",
         "songPhoto":"https://www.whosampled.com/static/images/media/track_images_200/lr1638_201186_22429748447.jpg"
     }, {
-        "sample":"I Love Music by Ahmad Jamal Trio",
+        "sample":"I Love Music",
+        "artist":"Ahmad Jamal Trio",
         "samplePhoto": "https://www.whosampled.com/static/images/media/track_images_200/lr2_2008128_202323762048.jpg",
         "flipper": "Pete Rock with Nas",
         "song":"The World Is Yours",

@@ -9,12 +9,27 @@ export default function MyProjects () {
     // let group = projects[index];
 
     return (
-        <div>
+        <div className="center">
             <button onClick={handleClick}>Next</button>
             {/* <p>Info here{samp.sample}</p> */}
             <br></br>
             <br></br>
-                <h4>Original Sample</h4>
+            <tr>
+                <th>Orignal Sample</th>
+                {/* <br></br> */}
+                <th>Sampled By</th>
+            </tr>
+            <tr>
+                <td><img src={samp[index].samplePhoto}/></td>
+                {/* <br></br> */}
+                <td><img src={samp[index].songPhoto}/> </td>
+            </tr>
+            <tr>
+                <td>{`${samp[index].artist}`}<br></br>{`${samp[index].sample}`}</td>
+                {/* <br></br> */}
+                <td>{`${samp[index].flipper}`}<br></br>{`${samp[index].song}`}</td>
+            </tr>
+                {/* <h4>Original Sample</h4>
                     <p>{`${samp[index].sample}`}</p>
                     <img src={samp[index].samplePhoto}/>
                 <br></br>
@@ -22,7 +37,7 @@ export default function MyProjects () {
                 <h4>Sampled By</h4>
                     <p>{`${samp[index].flipper}`}</p>
                     <p>{`${samp[index].song}`}</p>
-                <img src={samp[index].songPhoto}/>
+                <img src={samp[index].songPhoto}/> */}
             {/* <p>{`${samp[index].sample}`}</p> */}
             {/* {JSON.stringify(samp[index])} */}
         </div>

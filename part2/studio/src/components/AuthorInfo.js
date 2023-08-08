@@ -11,7 +11,7 @@ function AuthorInfo() {
   </div>
   )
   const recipeWebsite = recipedata.map((data) =>
-    <a key={data.name}>{data.website}</a>
+    <a key={data.name} href={data.website} target="blank">{data.website}</a>
   )
    return (
     <div>

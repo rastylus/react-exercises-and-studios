@@ -1,11 +1,11 @@
 const RecipeAuthor = () => {
-   let authorLink = "";
-   let authorPhoto = "";
-   let authorName = "";
+   const authorLink = "https://www.kingarthurbaking.com/sites/default/files/styles/featured_image_2x/public/recipe_legacy/1750-3-large.jpg?itok=MwEaAU-G";
+   const authorPhoto = "https://www.kingarthurbaking.com/sites/default/files/styles/scaled_very_small_250w/public/2019-07/mary-jane-robbins-blog-author.jpg?itok=wkG8pQfZ";
+   const authorName = "MaryJane Robbins";
 
    return (
       <div>
-         <img src={authorPhoto} alt = "" style={{objectFit: "contain", borderRadius: "50%"}} />
+         <img src={authorPhoto} alt = "MaryJane Robbins" style={{objectFit: "contain", borderRadius: "50%"}} />
          <div>
             <h3>{authorName}</h3>
             <a href={authorLink}></a> 
@@ -15,7 +15,7 @@ const RecipeAuthor = () => {
 }
 
 const RecipeIngredients = () => {
-   const ingredients = [];
+   const ingredients = ["potatoes", "cheddar cheese", "butter", "onions", " dough"];
    return(
       <div>
          <h3>Recipe Ingredients</h3>
@@ -34,8 +34,8 @@ const RecipeDescription = () => {
    return (
       <div> 
          <div>
-            <h1></h1>
-            <p></p>
+            <h1>Pierogies</h1>
+            <p>Tasty mashed potato dumplings.</p>
          </div>
          <div className="recipePhotoBlock">
             <RecipeIngredients />
@@ -60,4 +60,5 @@ export default function RecipeDisplay () {
          </div>
       </div>
    );
+   
 }
